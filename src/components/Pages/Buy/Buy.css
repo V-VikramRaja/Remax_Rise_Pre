@@ -1,0 +1,14 @@
+.buy-section {
+  min-height: 70vh;
+}
+.buy-request-btn {
+  height: 80px;
+}
+
+.all-prop-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

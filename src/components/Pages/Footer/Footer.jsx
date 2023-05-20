@@ -1,0 +1,38 @@
+import React from "react";
+import "./Footer.css";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
+
+export default function Footer() {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+  return (
+    <div className="footer">
+      <div className="footer-1">
+        <p>REMAX RISE</p>
+      </div>
+      <div className="footer-2">
+        <p>
+          <NavLink
+            exact="true"
+            to="/contact"
+            activeclassname="active"
+            className="footer-contact-us-nav-link"
+            onClick={handleClick}
+          >
+            Contact Us
+          </NavLink>
+        </p>
+
+        {/* <p>Ground Floor, 143 Coronation Drive, Milton QLD 4064</p> */}
+        <p>rise@remax.com.au</p>
+        <p>07 3007 9000</p>
+      </div>
+      <div className="footer-3">
+        <p>Terms and conditions</p>
+        <p>Privacy Policy</p>
+      </div>
+    </div>
+  );
+}
