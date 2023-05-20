@@ -17,12 +17,12 @@ function App() {
 
         <div className="pages">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/buy" element={<Buy />} />
-            <Route path="/sell" element={<Contact />} />
-            <Route path="/rent" element={<Buy />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/Remax_Rise_Pre/" element={<Home />} />
+            <Route path="/Remax_Rise_Pre/about" element={<About />} />
+            <Route path="/Remax_Rise_Pre/buy" element={<Buy />} />
+            <Route path="/Remax_Rise_Pre/sell" element={<Contact />} />
+            <Route path="/Remax_Rise_Pre/rent" element={<Buy />} />
+            <Route path="/Remax_Rise_Pre/contact" element={<Contact />} />
           </Routes>
         </div>
 
