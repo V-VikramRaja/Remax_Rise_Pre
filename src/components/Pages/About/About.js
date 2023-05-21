@@ -60,7 +60,7 @@ export const About = () => {
               <div className="about-team-text-1">
                 <h1>Sashi Yarramsetti</h1>
                 <h4>Principal</h4>
-                <h4>+61470758281</h4>
+                <h4>+0434 666 606</h4>
                 <div className="mot-div-mail">
                   {/* <img src={mailLogo} alt="mail logo" className="mailLogo" /> */}
                   <p>rise@remax.com.au</p>

@@ -171,7 +171,7 @@ const Home = () => {
             <div className="mot-div-abt">
               <h2>Sashi Yarramsetti</h2>
               <h4>Principal</h4>
-              <h5>+61470758281</h5>
+              <h5>+0434 666 606</h5>
               <div className="mot-div-mail">
                 <p>syarramsetti@remax.com.au</p>
               </div>
