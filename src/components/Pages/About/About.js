@@ -4,7 +4,7 @@ import "./About.css";
 import aboutImage from "../../../images/about-remax.jpeg";
 import client1 from "../../../images/team/Client1.0.jpeg";
 import client2 from "../../../images/team/Client2.0.jpeg";
-import mailLogo from "../../../images/Icons/🦆 icon _Envelope_.png";
+// import mailLogo from "../../../images/Icons/🦆 icon _Envelope_.png";
 
 export const About = () => {
   const [click, setClick] = useState(false);
@@ -122,7 +122,6 @@ export const About = () => {
                 <h4>Principal</h4>
                 <h4>+61415469369</h4>
                 <div className="mot-div-mail">
-                  <img src={mailLogo} alt="mail logo" className="mailLogo" />
                   <p>rise@remax.com.au</p>
                 </div>
               </div>
