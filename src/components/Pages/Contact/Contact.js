@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
 import { NavLink } from "react-router-dom";
-import mailLogo from "../../../images/Icons/🦆 icon _Envelope_.png";
 
 function Contact() {
   const [inputFName, setInputFName] = useState("");
@@ -174,7 +173,6 @@ function Contact() {
             </NavLink>
           </button>
           <div className="mot-div-mail">
-            <img src={mailLogo} alt="mail logo" className="mailLogo" />
             <p>remaxrise@gmail.com.au</p>
           </div>
         </div>
