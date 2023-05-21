@@ -48,7 +48,7 @@ export const About = () => {
         </div>
       </section>
       <section className="about-mot">
-        <h1>MEET OUR TEAM</h1>
+        <h1>Meet Our Team</h1>
         <h3>
           With strong expertise in the industry, our team are experts in their
           field
