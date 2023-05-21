@@ -164,7 +164,7 @@ const Home = () => {
         </div>
       </section>
       <section className="mot-section">
-        <h2>Meet our team</h2>
+        <h2>Meet Our Team</h2>
         <div className="mot-div">
           <div className="mot-div-1">
             <img src={client1} alt="team member" className="mot-div-img"></img>
