@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./About.css";
 import aboutImage from "../../../images/about-remax.jpeg";
-import client1 from "../../../images/team/Client 1.jpeg";
-import client2 from "../../../images/team/Client 2.jpeg";
+import client1 from "../../../images/team/Client1.0.jpeg";
+import client2 from "../../../images/team/Client2.0.jpeg";
 import mailLogo from "../../../images/Icons/🦆 icon _Envelope_.png";
 
 export const About = () => {
