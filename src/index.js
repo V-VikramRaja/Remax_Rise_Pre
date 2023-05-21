@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
 // import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import "./index.css";
+import App from "./App";
+import { HashRouter as Router } from "react-router-dom";
 // import reportWebVitals from './reportWebVitals';
-import { createRoot } from 'react-dom/client';
-const root = createRoot(document.getElementById('root'));
-root.render(<App />);
+import { createRoot } from "react-dom/client";
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <Router>
+    <App />
+  </Router>
+);
 
 // ReactDOM.render(
 //   <React.StrictMode>
