@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 function Contact() {
   const [inputFName, setInputFName] = useState("");
@@ -57,12 +57,9 @@ function Contact() {
     <div id="contact" className="contact-form">
       <div className="contact-form-top-container">
         <h1>Contact us</h1>
-        <p>
-          "Rawness and refinement are not opposite ends of a luxurious spectrum.
-          <br />
-          They are two complementary features with which to populate a luxury
-          environment.”
-        </p>
+        {/* <p>
+          "Fill the following form and we will get back to as soon as possible”
+        </p> */}
       </div>
       <div className="contact-form-bottom-container">
         <div className="contact-form-leftPart">
@@ -161,7 +158,7 @@ function Contact() {
             </form>
           </div>
         </div>
-        <div className="contact-form-rightPart">
+        {/* <div className="contact-form-rightPart">
           <button className="hero-btn-1">
             <NavLink
               exact
@@ -173,9 +170,9 @@ function Contact() {
             </NavLink>
           </button>
           <div className="mot-div-mail">
-            <p>remaxrise@gmail.com.au</p>
+            <p>rise@remax.com.au</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

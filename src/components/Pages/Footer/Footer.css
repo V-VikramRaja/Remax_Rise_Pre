@@ -8,11 +8,11 @@
 }
 
 .footer-contact-us-nav-link {
+  font-size: 1rem;
   text-decoration: none;
   color: #fff;
 }
 
-.footer-1 > p,
 .footer-2 > p,
 .footer-3 > p {
   margin: 0;
@@ -28,7 +28,7 @@
 }
 
 .footer-2 > p {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -41,9 +41,9 @@
   padding-top: 1.2rem;
 }
 
-.footer-1 > p {
-  font-size: 1.5rem;
-  font-weight: bold;
+.footer-logo {
+  height: 4rem;
+  width: auto;
 }
 
 .footer {

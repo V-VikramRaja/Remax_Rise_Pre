@@ -126,7 +126,7 @@ export const About = () => {
                 </div>
               </div>
             </div>
-            <div className="about-team-text-2">
+            <div className="about-team-text-2 about-team-text-last">
               <p>
                 Madhava Dudipalli is a highly respected professional with
                 enviable credentials across both real estate and finance.

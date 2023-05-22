@@ -1,10 +1,13 @@
+.nav-res-menu {
+  display: none;
+}
+
 .navbar {
   background-color: #ffffff;
   height: 60px;
   display: flex;
   justify-content: space-around;
   align-items: space-around;
-  font-size: 1.1rem;
   font-weight: bold;
   position: sticky;
   top: 0;
@@ -42,6 +45,7 @@
   padding: 0.5rem 1rem;
   height: 100%;
   border-bottom: 3px solid transparent;
+  font-size: 1rem;
 }
 .fa-code {
   margin-left: 1rem;
@@ -83,7 +87,7 @@
   color: #fff;
   padding: 20px;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -135,4 +139,25 @@
   height: 50px;
   display: block;
   text-indent: -9999px;
+}
+
+/** Tablet View */
+
+@media screen and (max-width: 920px) {
+  .nav-menu-main {
+    display: none;
+  }
+  .nav-res-menu {
+    display: flex;
+  }
+  .navbar {
+    align-items: center;
+  }
+  .nav-main-logo {
+    margin-top: 1.5rem;
+    height: auto;
+  }
+  .nav-res-menu-icon {
+    cursor: pointer;
+  }
 }

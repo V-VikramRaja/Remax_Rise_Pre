@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import whiteLogo from "../../../images/White Logo.png";
 
 export default function Footer() {
   const [click, setClick] = useState(false);
@@ -10,7 +11,9 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-1">
-        <p>REMAX RISE</p>
+        <NavLink exact="true" to="/">
+          <img src={whiteLogo} alt="Logo" className="footer-logo" />
+        </NavLink>
       </div>
       <div className="footer-2">
         <p>

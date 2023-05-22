@@ -6,7 +6,7 @@ import client1 from "../../../images/team/Client1.0.jpeg";
 import client2 from "../../../images/team/Client2.0.jpeg";
 import mainLogo from "../../../images/logo.jpeg";
 // import mailLogo from "../../../images/Icons/🦆 icon _Envelope_.png";
-import comingSoon from "../../../images/coming soon.png";
+import comingSoon from "../../../images/coming soon.jpeg";
 
 const Home = () => {
   const [bgImg, setBgImg] = useState("bg-1");
@@ -198,11 +198,11 @@ const Home = () => {
           surrounds area.
         </h2>
       </section> */}
-      <section className="affiliation-section">
+      {/* <section className="affiliation-section">
         <h1>Affiliations </h1>
         <p>Anti money laundering registered</p>
         <img src={mainLogo} className="nav-main-logo" alt="logo" />
-      </section>
+      </section> */}
     </div>
   );
 };
