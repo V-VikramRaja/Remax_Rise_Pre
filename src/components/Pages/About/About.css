@@ -1,17 +1,21 @@
+.about-section {
+  background-color: #ededed;
+}
+
 .about-section-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #ededed;
 }
 
-.about-section-1 > div {
+.about-section-1 > div:nth-child(0) {
   margin: 4rem 3rem;
 }
 
 .about-section-img {
-  width: 40vw;
+  width: 50vw;
+  height: auto;
 }
 
 .about-section-div-1 {
@@ -86,12 +90,16 @@ h1 > span {
 
 .about-team-text-2 {
   margin: 0 5rem;
-  max-width: 80%;
+  max-width: 65%;
 }
 
 .about-team-text-2 > p {
   text-align: justify;
   font-size: 1rem;
+}
+
+.bed-bath-icon {
+  margin: 0 7px;
 }
 
 .about-team-text-last {

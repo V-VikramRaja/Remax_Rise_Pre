@@ -141,9 +141,9 @@
 .bsr-buy,
 .bsr-rent,
 .bsr-sell {
-  width: 154px;
-  height: 112px;
-  margin: 5rem;
+  width: 312px;
+  height: 212px;
+  margin: 4rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -347,7 +347,9 @@
   .bsr-buy,
   .bsr-rent,
   .bsr-sell {
-    margin: 3rem;
+    margin: 1rem;
+    width: 220px;
+    height: 161px;
   }
 }
 
@@ -362,7 +364,9 @@
   .bsr-buy,
   .bsr-rent,
   .bsr-sell {
-    margin: 1rem;
+    margin: 0.4rem;
+    width: 180px;
+    height: 131px;
   }
 }
 
@@ -389,6 +393,13 @@
   }
   .bsr-section {
     margin-bottom: 3rem;
+  }
+  .bsr-buy,
+  .bsr-rent,
+  .bsr-sell {
+    margin: 2rem;
+    width: 180px;
+    height: 131px;
   }
 }
 

@@ -49,7 +49,7 @@ const Home = () => {
               activeclassname="active"
               className="hero-nav-links-1"
             >
-              VIEW LISTING
+              VIEW LISTINGS
             </NavLink>
           </button>
           <button className="hero-btn-2">
@@ -173,7 +173,7 @@ const Home = () => {
             <div className="mot-div-abt">
               <h2>Sashi Yarramsetti</h2>
               <h4>Principal</h4>
-              <h5>+0434 666 606</h5>
+              <h5>+61 434666606</h5>
               <div className="mot-div-mail">
                 <p>syarramsetti@remax.com.au</p>
               </div>
@@ -184,7 +184,7 @@ const Home = () => {
             <div className="mot-div-abt">
               <h2>Madhava Dudipalli</h2>
               <h4>Principal</h4>
-              <h5>+61415469369</h5>
+              <h5>+61 415469369</h5>
               <div className="mot-div-mail">
                 <p>Mdudipalli@remax.com.au</p>
               </div>

@@ -42,7 +42,7 @@
 }
 
 .footer-logo {
-  height: 4rem;
+  height: 6rem;
   width: auto;
 }
 
@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 475px) {
   .footer-logo {
-    width: 5rem;
+    width: 7rem;
     height: auto;
   }
   .footer-contact-us-nav-link {

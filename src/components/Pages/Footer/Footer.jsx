@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import whiteLogo from "../../../images/White Logo.png";
+import whiteLogo from "../../../images/white-logo.png";
 
 export default function Footer() {
   const [click, setClick] = useState(false);

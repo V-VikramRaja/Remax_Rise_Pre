@@ -1,6 +1,8 @@
 import React from "react";
 import notAvailImg from "../../../../images/img-not-avail.jpeg";
 import "./Card.css";
+import { FaBed } from "react-icons/fa";
+import { BiBath } from "react-icons/bi";
 
 export default function Card(props) {
   return (
@@ -24,7 +26,10 @@ export default function Card(props) {
       </div>
       <div className="prop-showcase-card-bottom-container">
         <p>{props.res.system_search_key}</p>
-        <p>Beds and Baths</p>
+        <p>
+          <FaBed size="20" className="bed-bath-icon" />
+          <BiBath size="20" className="bed-bath-icon" />
+        </p>
       </div>
     </div>
   );
