@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Remax_Rise_Pre/static/css/main.b55624b1.css",
-    "main.js": "/Remax_Rise_Pre/static/js/main.6c01eba5.js",
+    "main.css": "/Remax_Rise_Pre/static/css/main.84c3f24a.css",
+    "main.js": "/Remax_Rise_Pre/static/js/main.66b8456c.js",
     "static/media/4.jpg": "/Remax_Rise_Pre/static/media/4.5e39f3f74f2d2b268827.jpg",
     "static/media/5.jpg": "/Remax_Rise_Pre/static/media/5.6913a9b25cdc6258504a.jpg",
     "static/media/7.jpg": "/Remax_Rise_Pre/static/media/7.76b21407e1385d6d2891.jpg",
@@ -17,13 +17,13 @@
     "static/media/Client2.0.jpeg": "/Remax_Rise_Pre/static/media/Client2.0.a663387e62c4249a8379.jpeg",
     "static/media/Client1.0.jpeg": "/Remax_Rise_Pre/static/media/Client1.0.344b0b899d9d8c3b3d80.jpeg",
     "static/media/logo.jpeg": "/Remax_Rise_Pre/static/media/logo.dadf470d8eb08162b5d1.jpeg",
-    "static/media/White Logo.png": "/Remax_Rise_Pre/static/media/White Logo.54396a25b82990d21f4b.png",
+    "static/media/white-logo.png": "/Remax_Rise_Pre/static/media/white-logo.0dd7fdb49e78890347f5.png",
     "index.html": "/Remax_Rise_Pre/index.html",
-    "main.b55624b1.css.map": "/Remax_Rise_Pre/static/css/main.b55624b1.css.map",
-    "main.6c01eba5.js.map": "/Remax_Rise_Pre/static/js/main.6c01eba5.js.map"
+    "main.84c3f24a.css.map": "/Remax_Rise_Pre/static/css/main.84c3f24a.css.map",
+    "main.66b8456c.js.map": "/Remax_Rise_Pre/static/js/main.66b8456c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b55624b1.css",
-    "static/js/main.6c01eba5.js"
+    "static/css/main.84c3f24a.css",
+    "static/js/main.66b8456c.js"
   ]
 }
