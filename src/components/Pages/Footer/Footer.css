@@ -49,3 +49,21 @@
 .footer {
   background-color: #1a3668;
 }
+
+@media screen and (max-width: 475px) {
+  .footer-logo {
+    width: 5rem;
+    height: auto;
+  }
+  .footer-contact-us-nav-link {
+    font-size: 0.9rem;
+  }
+
+  .footer-2 > p {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .footer-3 > p {
+    font-size: 0.7rem;
+  }
+}

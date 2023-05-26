@@ -69,48 +69,43 @@ export const About = () => {
             </div>
             <div className="about-team-text-2">
               <p>
-                Sashi Kumar Yarramsetti loves working in real estate and
-                partners with Madhava Dudipalli, a mortgage broker and tax
-                accountant, to meet the local community’s real estate needs and
-                help people realise their home ownership goals.
+                RE/MAX Rise broker owner - Sashi Yarramsetti Sashi Yarramsetti
+                took his love of real estate sales to the next level and opened
+                RE/MAX Rise with business partner Madhava Dudipalli in May 2023.
+              </p>
+              <p>
+                As broker owner and sales specialist, Sashi has enormous pride
+                in the role he plays in meeting the local community’s real
+                estate needs and helping people realise their home ownership
+                goals. Sashi’s personal real estate interests include property
+                investments across three Australian states.
               </p>
               <p>
                 A highly motivated and credentialed mechanical engineer since
-                2008, his experience of more than 14 years among several
-                well-regarded engineering firms has seen him work on key
-                projects in Australia and New Zealand.
+                2008, he has also worked with highly regarded engineering firms
+                on key projects in Australia and New Zealand. Along with his
+                passion and commitment to real estate is Sashi’s involvement
+                with health and fitness.
               </p>
               <p>
-                Sashi’s personal real estate interests include a four-bedroom
-                investment property in Thornton, Newcastle, bought in 2011; an
-                apartment bought in Essendon North, Melbourne, in 2012; and a
-                Springfield Lakes property purchased in 2015.
+                As a dedicated fitness professional, he established Skyz Fitness
+                in 2019. As a cricket coach, he also follows his passion to help
+                and develop young cricketers. Testimonials, both in real estate
+                and fitness arenas, reflect Sashi’s energy and enthusiasm,
+                friendly caring manner, commitment, focus on individual needs
+                and excellent communication.
               </p>
               <p>
-                Along with his passion and commitment to real estate is Sashi’s
-                involvement with health and fitness. Dedicated fitness
-                professional with a passion for improving client health,
-                wellness, and quality of life, he established Skyz Fitness in
-                2019 to deliver fitness programs that are fun, safe, extremely
-                effective and tailored to individual goals for youth, teens,
-                adults and senior citizens. Enjoyed the game of cricket so much
-                led Sashi to become a coach in 2016 and follow his passion to
-                help and develop young cricketers.
+                As business owner with the world’s number one real estate brand,
+                Sashi’s objective is to listen to and work with clients to
+                create a stress-free real estate experience with effective sales
+                and marketing processes that deliver the very best price
+                possible for the seller and a satisfied buyer.
               </p>
               <p>
-                Testimonials reflect, in particular, Sashi’s energy and
-                enthusiasm, friendly caring manner, commitment, focus on
-                individual needs and excellent communication.
-              </p>
-              <p>
-                Now working with the world’s number one real estate brand, his
-                objective is to listen to and work with the seller to develop a
-                stress free and effective sales and marketing process that
-                achieves the very best price possible, while at the same time
-                having a satisfied buyer. When it comes to real estate, Sashi
-                will be by your side throughout the 4300 post code, ensuring you
-                have the best real estate experience and achieve the best
-                outcome.
+                When it comes to real estate, Sashi will be by your side,
+                ensuring you have the best real estate experience and achieve
+                the best outcome.
               </p>
             </div>
           </div>
@@ -128,36 +123,26 @@ export const About = () => {
             </div>
             <div className="about-team-text-2 about-team-text-last">
               <p>
-                Madhava Dudipalli is a highly respected professional with
-                enviable credentials across both real estate and finance.
+                Co-owner of RE/MAX Rise, Madhava Dudipalli is a highly respected
+                professional with enviable credentials across both real estate
+                and finance.
               </p>
               <p>
                 The fully licensed real estate agent is an experienced mortgage
                 broker, operating his own business since 2020. The breadth of
                 Madhava’s experience includes director in his accounting and tax
                 firm, and senior finance roles with local councils in
-                Queensland, Victoria and Northern Territory including Acting
-                Director Finance, Alice Springs Town Council.
+                Queensland, Victoria and Northern Territory. He was accounts and
+                finance manager with Deccan Chronicle Holdings Ltd, an A Listed
+                company with a $120m-plus turnover, interests in IPL 20-20
+                Cricket and retail stores, and publisher of the largest
+                circulated English newspaper in South India.
               </p>
               <p>
-                He was accounts and finance manager with Deccan Chronicle
-                Holdings Ltd, an A Listed company with a $120m-plus turnover and
-                interests in publication of a major daily newspaper, IPL 20-20
-                Cricket and retail stores.
-              </p>
-              <p>
-                Professional memberships include CAANZ (Chartered Accountants
-                Australia and New Zealand), FBAA (Finance Brokers Association of
-                Australia), CPA Australia and ICAI (Institute of Chartered
-                Accountants of India). A hands-on property investor himself,
-                Madhava has experienced property markets through his own
-                property companies.
-              </p>
-              <p>
-                Based in Ripley and partnering in business with Sashi
-                Yarramsetti, his expertise is sought by clients through
-                Springfield, Springfield Lakes, Ripley, Spring Mountain and
-                surrounding areas.
+                Madhava’s professional memberships include CAANZ (Chartered
+                Accountants Australia and New Zealand), FBAA (Finance Brokers
+                Association of Australia), CPA Australia and ICAI (Institute of
+                Chartered Accountants of India).
               </p>
               <p>
                 Having honed skills in areas such as financial accounting and
@@ -166,18 +151,19 @@ export const About = () => {
                 awarded by industry for his achievements.
               </p>
               <p>
-                Madhava is recognised for his ability in building rapport with
-                stakeholders to assist in accounting, finance, and
-                administration related matters, carrying out project appraisals,
-                capital budgeting, fixed assets management, delivering short-
-                and long-term capital projects.
+                A hands-on property investor himself, Madhava has experienced
+                property markets through his own property companies.
               </p>
               <p>
-                He is customer focused, result oriented and committed to
-                delivering on time. As a mortgage broker/advisor, an accountant,
-                a real estate agent and an investor in property markets, Madhava
-                is able to deliver a truly exceptional real estate experience
-                covering all aspects of the process.
+                He is recognised for business acumen, his ability in building
+                rapport, and being customer focused, result oriented and
+                committed to delivering on time.
+              </p>
+              <p>
+                As a real estate agent, investor and business owner, a mortgage
+                broker/advisor and an accountant, Madhava is able to deliver a
+                truly exceptional real estate experience covering all aspects of
+                the process.
               </p>
             </div>
           </div>

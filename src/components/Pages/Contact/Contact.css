@@ -117,3 +117,14 @@
 .contact-form-submit-para {
   display: none;
 }
+
+@media screen and (max-width: 620px) {
+  .contact-form-leftPart {
+    width: 70vw;
+  }
+  .contact-from-input {
+    width: 100%;
+    border: none;
+    height: 2rem;
+  }
+}

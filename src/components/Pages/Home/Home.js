@@ -4,9 +4,8 @@ import "./Home.css";
 // import samplehome from "../../../images/sample home.jpg";
 import client1 from "../../../images/team/Client1.0.jpeg";
 import client2 from "../../../images/team/Client2.0.jpeg";
-import mainLogo from "../../../images/logo.jpeg";
+// import mainLogo from "../../../images/logo.jpeg";
 // import mailLogo from "../../../images/Icons/🦆 icon _Envelope_.png";
-import comingSoon from "../../../images/coming soon.jpeg";
 
 const Home = () => {
   const [bgImg, setBgImg] = useState("bg-1");
@@ -131,20 +130,23 @@ const Home = () => {
           </NavLink>
         </div>
         <div className="home-props">
-          <div className="indi-props">
-            <img className="indi-props-img" src={comingSoon} alt="properties" />
+          <div className="indi-props indi-props-1">
+            <p className="coming-soon-text">Coming Soon</p>
+            {/* <img className="indi-props-img" src={comingSoon} alt="properties" /> */}
             {/* <p>$ 4,568,900</p>
             <p>13 Toulambi street, Noosa Heads QLD 4567</p>
             <p>4 Beds 4baths 4cars </p> */}
           </div>
-          <div className="indi-props">
-            <img className="indi-props-img" src={comingSoon} alt="properties" />
+          <div className="indi-props indi-props-2">
+            <p className="coming-soon-text">Coming Soon</p>
+            {/* <img className="indi-props-img" src={comingSoon} alt="properties" /> */}
             {/* <p>$ 4,568,900</p>
             <p>13 Toulambi street, Noosa Heads QLD 4567</p>
             <p>4 Beds 4baths 4cars </p> */}
           </div>
-          <div className="indi-props">
-            <img className="indi-props-img" src={comingSoon} alt="properties" />
+          <div className="indi-props indi-props-3">
+            <p className="coming-soon-text">Coming Soon</p>
+            {/* <img className="indi-props-img" src={comingSoon} alt="properties" /> */}
             {/* <p>$ 4,568,900</p>
             <p>13 Toulambi street, Noosa Heads QLD 4567</p>
             <p>4 Beds 4baths 4cars </p> */}

@@ -63,6 +63,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
+  text-align: center;
 }
 
 .hero-btn-1,
@@ -182,10 +183,36 @@
 
 .indi-props {
   width: 300px;
+  height: 240px;
   margin: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("../../../images/Home-slides/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.indi-props-1 {
+  background-image: url("../../../images/Home-slides/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.indi-props-2 {
+  background-image: url("../../../images/Home-slides/5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.indi-props-3 {
+  background-image: url("../../../images/Home-slides/6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coming-soon-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
 }
 
 .indi-props > p:nth-child(2) {
@@ -308,4 +335,70 @@
 
 .mot-div-mail > p {
   font-weight: bold;
+}
+
+@media screen and (max-width: 920px) {
+  .mot-div {
+    flex-direction: column;
+  }
+  .indi-props {
+    width: 250px;
+  }
+  .bsr-buy,
+  .bsr-rent,
+  .bsr-sell {
+    margin: 3rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .indi-props {
+    width: 200px;
+    height: 175px;
+  }
+  .coming-soon-text {
+    font-size: 1rem;
+  }
+  .bsr-buy,
+  .bsr-rent,
+  .bsr-sell {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .hero-section {
+    margin-bottom: 5rem;
+  }
+
+  .home-props {
+    flex-direction: column;
+  }
+  .hero-text {
+    font-size: 2rem;
+  }
+  .hero-para {
+    font-size: 1.2rem;
+  }
+  .indi-props {
+    width: 250px;
+    height: 200px;
+  }
+  .bsr-imgs {
+    flex-direction: column;
+  }
+  .bsr-section {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .mot-div-1,
+  .mot-div-2 {
+    flex-direction: column;
+  }
 }

@@ -11,7 +11,11 @@
 }
 
 .about-section-img {
-  width: 460px;
+  width: 40vw;
+}
+
+.about-section-div-1 {
+  max-width: 40%;
 }
 
 .about-section-div-1 > h1 {
@@ -48,7 +52,9 @@ h1 > span {
   justify-content: space-evenly;
   margin-top: 5rem;
 }
-
+.about-mot > h3 {
+  text-align: center;
+}
 .about-team-members {
   display: flex;
   flex-direction: column;
@@ -57,7 +63,7 @@ h1 > span {
 }
 
 .about-team-text {
-  width: 100%;
+  width: 60rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -80,11 +86,12 @@ h1 > span {
 
 .about-team-text-2 {
   margin: 0 5rem;
+  max-width: 80%;
 }
 
 .about-team-text-2 > p {
   text-align: justify;
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 
 .about-team-text-last {
@@ -93,4 +100,42 @@ h1 > span {
 
 .about-team-text-1 > h1 {
   color: #023da6;
+}
+
+@media screen and (max-width: 920px) {
+  .about-team-text {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .about-section-1 {
+    flex-direction: column-reverse;
+  }
+  .about-section-img {
+    width: 70vw;
+  }
+  .about-section-div-1 {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .about-team-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-team-text > img,
+  .about-team-text > div {
+    margin: 2rem 0;
+  }
+  .about-team-text {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-section-1 > div {
+    margin: 1rem 2rem 3rem 2rem;
+  }
 }
