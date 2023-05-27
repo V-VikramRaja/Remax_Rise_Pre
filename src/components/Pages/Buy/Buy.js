@@ -6,6 +6,32 @@ import { useEffect } from "react";
 
 const Buy = () => {
   const [response, setResponse] = useState(null);
+  const [buyImg, setBuyImg] = useState("by-1");
+  let bgImgs = [
+    "",
+    "by-1",
+    "by-2",
+    "by-3",
+    "by-4",
+    "by-5",
+    "by-6",
+    "by-7",
+    "by-8",
+  ];
+  let len = bgImgs.length;
+  const MINUTE_MS = 3000;
+  let i = 1;
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (i > len - 2) {
+        i = 0;
+      }
+      i++;
+      setBuyImg(bgImgs[i]);
+    }, MINUTE_MS);
+
+    return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
+  }, []);
 
   const sendData = async () => {
     const baseUrl = "https://api.rexsoftware.com";
@@ -41,6 +67,7 @@ const Buy = () => {
 
   return (
     <div className="buy-section">
+      <div className="buy-slider" id={buyImg}></div>
       <div className="all-prop-cards-container">
         {response &&
           response.result.rows.map((res) => {
