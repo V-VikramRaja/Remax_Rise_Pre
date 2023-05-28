@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Remax_Rise_Pre/static/css/main.84c3f24a.css",
-    "main.js": "/Remax_Rise_Pre/static/js/main.66b8456c.js",
-    "static/media/4.jpg": "/Remax_Rise_Pre/static/media/4.5e39f3f74f2d2b268827.jpg",
-    "static/media/5.jpg": "/Remax_Rise_Pre/static/media/5.6913a9b25cdc6258504a.jpg",
-    "static/media/7.jpg": "/Remax_Rise_Pre/static/media/7.76b21407e1385d6d2891.jpg",
-    "static/media/6.jpg": "/Remax_Rise_Pre/static/media/6.2c38ba8ced4062abba72.jpg",
+    "main.css": "/Remax_Rise_Pre/static/css/main.0b70841e.css",
+    "main.js": "/Remax_Rise_Pre/static/js/main.7e4c0d7d.js",
+    "static/media/4.jpg": "/Remax_Rise_Pre/static/media/4.48260114b7d5961d9da7.jpg",
+    "static/media/5.jpg": "/Remax_Rise_Pre/static/media/5.fcd4734af10c4d5305a8.jpg",
+    "static/media/7.jpg": "/Remax_Rise_Pre/static/media/7.fd21ec18e7d2ffaecbf0.jpg",
+    "static/media/6.jpg": "/Remax_Rise_Pre/static/media/6.da1f0835972ed97ad58f.jpg",
     "static/media/Sell.jpg": "/Remax_Rise_Pre/static/media/Sell.aa5819a2a15294afe303.jpg",
-    "static/media/8.jpg": "/Remax_Rise_Pre/static/media/8.7452d39c66b3c46d3532.jpg",
+    "static/media/8.jpg": "/Remax_Rise_Pre/static/media/8.227107ac46703e238207.jpg",
     "static/media/Rent.jpg": "/Remax_Rise_Pre/static/media/Rent.cd6042276bef8a283b78.jpg",
-    "static/media/Buy.jpg": "/Remax_Rise_Pre/static/media/Buy.c0594e2c11f2eb6bfd30.jpg",
-    "static/media/2.jpg": "/Remax_Rise_Pre/static/media/2.9ad3d1619ca6d0035c8e.jpg",
     "static/media/3.jpg": "/Remax_Rise_Pre/static/media/3.52403ac0908e95f6d649.jpg",
+    "static/media/2.jpg": "/Remax_Rise_Pre/static/media/2.9ad3d1619ca6d0035c8e.jpg",
+    "static/media/Buy.jpg": "/Remax_Rise_Pre/static/media/Buy.c0594e2c11f2eb6bfd30.jpg",
     "static/media/1.jpg": "/Remax_Rise_Pre/static/media/1.08a1e564c0724885c003.jpg",
     "static/media/about-remax.jpeg": "/Remax_Rise_Pre/static/media/about-remax.9dba36a884addd340c14.jpeg",
     "static/media/Client2.0.jpeg": "/Remax_Rise_Pre/static/media/Client2.0.a663387e62c4249a8379.jpeg",
@@ -19,11 +19,11 @@
     "static/media/logo.jpeg": "/Remax_Rise_Pre/static/media/logo.dadf470d8eb08162b5d1.jpeg",
     "static/media/white-logo.png": "/Remax_Rise_Pre/static/media/white-logo.0dd7fdb49e78890347f5.png",
     "index.html": "/Remax_Rise_Pre/index.html",
-    "main.84c3f24a.css.map": "/Remax_Rise_Pre/static/css/main.84c3f24a.css.map",
-    "main.66b8456c.js.map": "/Remax_Rise_Pre/static/js/main.66b8456c.js.map"
+    "main.0b70841e.css.map": "/Remax_Rise_Pre/static/css/main.0b70841e.css.map",
+    "main.7e4c0d7d.js.map": "/Remax_Rise_Pre/static/js/main.7e4c0d7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.84c3f24a.css",
-    "static/js/main.66b8456c.js"
+    "static/css/main.0b70841e.css",
+    "static/js/main.7e4c0d7d.js"
   ]
 }

@@ -411,5 +411,6 @@
   .mot-div-1,
   .mot-div-2 {
     flex-direction: column;
+    align-items: center;
   }
 }
