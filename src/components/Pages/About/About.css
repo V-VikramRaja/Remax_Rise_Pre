@@ -7,6 +7,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  padding: 3rem 0;
 }
 
 .about-section-1 > div:nth-child(0) {
@@ -28,9 +29,75 @@
 }
 
 .about-section-div-1 > p {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   margin-bottom: 40px;
   text-align: justify;
+}
+
+.about-section-wdbwrr {
+  padding: 5rem 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section-wdbwrr > h1 {
+  color: #dc232e;
+}
+
+.about-section-wdbwrr > h3 {
+  color: #023da6;
+}
+
+.about-section-wdbwrr > div {
+  max-width: 80%;
+}
+
+.about-section-wdbwrr > div > p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.about-section-wdbwrr > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section-wdbwrr > div > ul > li {
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+  text-align: justify;
+  list-style-type: none;
+}
+
+.about-section-wdbwrr > div > ul > li:nth-child(1) {
+  background-color: #ff9f9f;
+  border-radius: 30px;
+}
+.about-section-wdbwrr > div > ul > li:nth-child(2) {
+  background-color: #e97777;
+  border-radius: 30px;
+}
+.about-section-wdbwrr > div > ul > li:nth-child(3) {
+  background-color: #fcddb0;
+  border-radius: 30px;
+}
+.about-section-wdbwrr > div > ul > li:nth-child(4) {
+  background-color: #fffad7;
+  border-radius: 30px;
+}
+.about-section-wdbwrr > div > ul > li:nth-child(5) {
+  background-color: #ffe1e1;
+  border-radius: 30px;
+}
+
+.about-section-wdbwrr > p {
+  max-width: 85%;
+  text-align: justify;
+  font-weight: bold;
+  margin-top: 3rem;
 }
 
 h1 > span {
@@ -139,6 +206,27 @@ h1 > span {
   }
   .about-team-text {
     width: 30rem;
+  }
+  .about-section-wdbwrr {
+    padding: 0;
+  }
+  .about-section-wdbwrr > h1 {
+    font-size: 1.2rem;
+  }
+  .about-section-wdbwrr > h3 {
+    font-size: 0.9rem;
+    max-width: 70%;
+    text-align: center;
+  }
+  .about-section-wdbwrr > div > p {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .about-section-wdbwrr > div > ul > li {
+    margin: 2rem 1rem;
+    padding: 0.5rem 2rem;
+    text-align: justify;
+    list-style-type: none;
   }
 }
 

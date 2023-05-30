@@ -57,9 +57,7 @@ function Contact() {
     <div id="contact" className="contact-form">
       <div className="contact-form-top-container">
         <h1>Contact us</h1>
-        {/* <p>
-          "Fill the following form and we will get back to as soon as possible”
-        </p> */}
+        <p>Leave your details below and one of our teams will be in touch</p>
       </div>
       <div className="contact-form-bottom-container">
         <div className="contact-form-leftPart">

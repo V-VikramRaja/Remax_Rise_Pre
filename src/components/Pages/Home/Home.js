@@ -93,6 +93,16 @@ const Home = () => {
           </NavLink>
         </div>
       </section>
+      <section className="home-stmt-section">
+        <p>
+          A fresh approach to the property transaction. Whether you’re buying
+          for the first time, wondering what you could sell your place for,
+          needing someone to manage your rental or even interested in a
+          commercial space, the RE/MAX Rise team are ready to help. From Ripley
+          to Walloon, Brassall to Dinmore, we’ve got the neighbourhoods of
+          Ipswich covered
+        </p>
+      </section>
       <section className="third-section">
         <h1>Properties we think you'll love</h1>
         <div className="bsrl">
@@ -192,7 +202,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="empty-spc"></section>
       {/* <section className="filler-sec">
         <h1>We're in your area</h1>
         <h2>

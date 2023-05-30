@@ -1,7 +1,3 @@
-.empty-spc {
-  height: 20vh;
-}
-
 .hero-section {
   display: flex;
   min-height: 90vh;
@@ -123,17 +119,17 @@
 }
 
 .bsr-buy {
-  background-image: url("../../../images/Buy.jpg");
+  background-image: url("../../../images/Home-slides/3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bsr-sell {
-  background-image: url("../../../images/Sell.jpg");
+  background-image: url("../../../images/Home-slides/7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bsr-rent {
-  background-image: url("../../../images/Rent.jpg");
+  background-image: url("../../../images/Home-slides/2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -156,6 +152,23 @@
   color: #ffffff;
 }
 
+.home-stmt-section {
+  background-color: #023da6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.home-stmt-section > p {
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2;
+  margin: 4rem 0;
+}
+
 /* ----------------- Third Section --------------- */
 
 .third-section {
@@ -166,7 +179,7 @@
 }
 
 .third-section > h1 {
-  color: #023da6;
+  color: #dc232e;
 }
 
 .bsrl {
@@ -375,8 +388,13 @@
     margin-bottom: 5rem;
   }
 
+  .third-section > h1 {
+    margin-bottom: 0;
+  }
+
   .home-props {
     flex-direction: column;
+    margin-top: 0;
   }
   .hero-text {
     font-size: 2rem;
@@ -397,7 +415,7 @@
   .bsr-buy,
   .bsr-rent,
   .bsr-sell {
-    margin: 2rem;
+    margin: 1rem;
     width: 180px;
     height: 131px;
   }

@@ -18,21 +18,34 @@ export const About = () => {
             About RE/MAX <span>RISE</span>
           </h1>
           <p>
-            Our team at RE/MAX RISE of highly-qualified professionals are
-            dedicated to providing personalised, efficient and results-driven
-            solutions to all your real estate needs.
+            Sashi Yarramsetti and business partner Madhava Dudipalli opened
+            RE/MAX Rise in May 2023 with a goal to meet the local community’s
+            real estate needs, help people realise their home ownership goals,
+            and be recognised for delivering a truly exceptional real estate
+            experience covering all aspects of the process.
           </p>
           <p>
-            From humble beginnings, we've been based in Queensland for the last
-            10 years and know what it takes to get results across the outer
-            suburbs.
+            Sashi and Madhava’s point of difference is in the merging of their
+            skill sets, their expertise and knowledge. Property investment, real
+            estate sales transactions and property management, finance and
+            business acumen are in their pedigree.
           </p>
           <p>
-            Managing every aspect of the residential property journey is what we
-            do best, be it looking after your investment property and its
-            tenants, finding you your next home or unearthing greater
-            possibilities in the commercial market.
+            They have grown a solid client base and investor network bringing
+            repeat and referral business since joining RE/MAX as sales agents,
+            and now the property and finance experiences of these business
+            leaders translates into great real estate experiences for their
+            RE/MAX Rise customers and clients. Their passion for real estate is
+            matched by a deep commitment to the local community, where both are
+            actively involved.
           </p>
+          <p>
+            Located at Ripley, RE/MAX Rise provides high-quality real estate
+            services to the vibrant and rapidly growing community and its
+            surrounding Ipswich suburbs, while being part of the largest real
+            estate group in the world.
+          </p>
+
           <NavLink
             exact
             to="/contact"
@@ -43,9 +56,49 @@ export const About = () => {
             Contact Us
           </NavLink>
         </div>
+
         <div className="about-section-div-2">
           <img src={aboutImage} alt="Remax" className="about-section-img" />
         </div>
+      </section>
+      <section className="about-section-wdbwrr">
+        <h1>WHY DO BUSINESS WITH RE/MAX RISE ?</h1>
+        <h3>RE/MAX Rise is underpinned by experience, knowledge and values.</h3>
+        <div className="about-section-wdbwrr-keys">
+          <p>Our points of difference include:</p>
+          <ul>
+            <li>
+              1. First-hand experience in property investment, sales and
+              marketing
+            </li>
+            <li>
+              2. A unique blend of skillsets in property, finance and business
+            </li>
+            <li>
+              3. Repeat business and referrals from an established client base
+            </li>
+            <li>
+              4. A team that’s trained to remain highly skilled and in sync with
+              latest industry standards
+            </li>
+            <li>
+              5. Hands-on support with distinctive branding, ready-to-use tested
+              systems and solutions and powerful resources to facilitate the
+              success of your property transaction or investment.
+            </li>
+          </ul>
+        </div>
+
+        <p>
+          RE/MAX has more than 140,000 agents in more than 110 countries and
+          territories, a global network that makes an excellent base for
+          referrals and leads on buyers and sellers. The power of the RE/MAX
+          name boosts business and attracts homebuyers. Worldwide, RE/MAX agents
+          closed over two million total transaction sides in 2021, becoming the
+          first real estate brand to do so in a single calendar year. Somewhere
+          in the world, a RE/MAX agent helps someone find their perfect place
+          every 30 seconds.
+        </p>
       </section>
       <section className="about-mot">
         <h1>Meet Our Team</h1>
