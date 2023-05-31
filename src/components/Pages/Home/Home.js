@@ -40,7 +40,7 @@ const Home = () => {
         <h1 className="hero-text">Let us guide you</h1>
         <p className="hero-para">
           For all property needs across Ripley, Springfield, Brookwater and
-          sorrounding areas
+          surrounding areas
         </p>
         <div className="hero-buttons">
           <button className="hero-btn-1">
