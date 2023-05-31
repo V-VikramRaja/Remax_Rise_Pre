@@ -39,7 +39,7 @@ const Home = () => {
       <section className="hero-section" id={bgImg}>
         <h1 className="hero-text">Let us guide you</h1>
         <p className="hero-para">
-          For all property needs across Ripley, Springfield, Brookwater and
+          For all your property needs across Ripley, Springfield, Brookwater and
           surrounding areas
         </p>
         <div className="hero-buttons">
