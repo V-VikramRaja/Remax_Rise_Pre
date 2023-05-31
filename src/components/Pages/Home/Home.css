@@ -110,6 +110,7 @@
 }
 .bsr-section-text {
   color: #dc232e;
+  margin-top: 4rem;
 }
 .bsr-imgs {
   display: flex;
@@ -139,7 +140,7 @@
 .bsr-sell {
   width: 312px;
   height: 212px;
-  margin: 4rem 1rem;
+  margin: 3rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
