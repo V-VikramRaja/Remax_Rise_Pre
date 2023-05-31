@@ -30,7 +30,7 @@ export default function Footer() {
 
         {/* <p>Ground Floor, 143 Coronation Drive, Milton QLD 4064</p> */}
         <p>rise@remax.com.au</p>
-        <p>07 3007 9000</p>
+        <p>+61 434666606</p>
       </div>
       <div className="footer-3">
         <p>Terms and conditions</p>
