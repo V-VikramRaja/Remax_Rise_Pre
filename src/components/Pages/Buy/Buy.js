@@ -54,7 +54,6 @@ const Buy = () => {
 
       const data = await response.json();
       setResponse(data);
-      console.log(data.result.rows);
     } catch (error) {
       console.error("Error:", error);
     }

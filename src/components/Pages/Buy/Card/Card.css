@@ -36,6 +36,10 @@
   font-size: 12px;
 }
 
+.dt-link {
+  text-decoration: none;
+}
+
 .prop-showcase-card-bottom-container > p:nth-child(1) {
   font-size: 0.6rem;
   font-weight: bold;

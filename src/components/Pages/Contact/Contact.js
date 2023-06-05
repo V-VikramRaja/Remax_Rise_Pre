@@ -31,10 +31,10 @@ function Contact() {
     evt.preventDefault();
     await emailjs
       .sendForm(
-        "service_0x6ylnk",
-        "template_9hb5c64",
+        "service_3zzi9t7",
+        "template_s29uy7k",
         evt.target,
-        "hdWwZr4b7-3HIqfTl"
+        "oJZhjHi3mX7bcH_Ka"
       )
       .then(
         (result) => {

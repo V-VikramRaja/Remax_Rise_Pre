@@ -3,10 +3,12 @@ import notAvailImg from "../../../../images/img-not-avail.jpeg";
 import "./Card.css";
 import { FaBed } from "react-icons/fa";
 import { BiBath } from "react-icons/bi";
+// import { Link } from "react-router-dom";
 
 export default function Card(props) {
   return (
     <div key={props.res._id} className="prop-showcase-card">
+      {/* <Link to="/details" state={props.res} className="dt-link"> */}
       <div className="prop-showcase-card-top-container">
         <img
           src={
@@ -18,6 +20,7 @@ export default function Card(props) {
           alt="property"
         />
       </div>
+      {/* </Link> */}
       <div className="prop-showcase-card-mid-container">
         <p>$Price</p>
         <div className="prop-current-status">
